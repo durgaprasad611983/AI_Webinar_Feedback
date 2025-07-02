@@ -15,7 +15,7 @@ from collections import Counter
 from PIL import Image
 
 # Load the data
-csv_path = "https://github.com/durgaprasad611983/AI_Webinar_Feedback/Webinar_Feedbacks.csv"
+csv_path = "Webinar_Feedbacks.csv"
 df = pd.read_csv(csv_path)
 
 # Page config
@@ -69,7 +69,7 @@ st.markdown("""
 # Host Section with Photo and Rich Text Box
 col1, col2 = st.columns([1, 3])
 with col1:
-    st.image("https://github.com/durgaprasad611983/AI_Webinar_Feedback/Photograph_5.jpg", caption="Durga Prasad", width=150)
+    st.image("Photograph_5.jpg", caption="Durga Prasad", width=150)
 with col2:
     st.markdown(" ")
     st.markdown(" ")
